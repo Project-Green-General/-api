@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "project-green-general.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/project-green-general.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/project-green-general.Domain.dll": {}
+        }
       }
     }
   },
@@ -451,12 +461,18 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "project-green-general.Domain/1.0.0": {
+      "type": "project",
+      "path": "../project-green-general.Domain/project-green-general.Domain.csproj",
+      "msbuildProject": "../project-green-general.Domain/project-green-general.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.1",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "project-green-general.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -465,11 +481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ii/api/Green-General-api/project-green-general.Api/project-green-general.Api.csproj",
+      "projectUniqueName": "/Users/ii/Documents/Green-General-api/project-green-general.Api/project-green-general.Api.csproj",
       "projectName": "project-green-general.Api",
-      "projectPath": "/Users/ii/api/Green-General-api/project-green-general.Api/project-green-general.Api.csproj",
+      "projectPath": "/Users/ii/Documents/Green-General-api/project-green-general.Api/project-green-general.Api.csproj",
       "packagesPath": "/Users/ii/.nuget/packages/",
-      "outputPath": "/Users/ii/api/Green-General-api/project-green-general.Api/obj/",
+      "outputPath": "/Users/ii/Documents/Green-General-api/project-green-general.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ii/.nuget/NuGet/NuGet.Config"
@@ -483,7 +499,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj": {
+              "projectPath": "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ii/api/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj": {}
+    "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj": {}
   },
   "projects": {
-    "/Users/ii/api/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj": {
+    "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ii/api/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj",
+        "projectUniqueName": "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj",
         "projectName": "project-green-general.Domain",
-        "projectPath": "/Users/ii/api/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj",
+        "projectPath": "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj",
         "packagesPath": "/Users/ii/.nuget/packages/",
-        "outputPath": "/Users/ii/api/Green-General-api/project-green-general.Domain/obj/",
+        "outputPath": "/Users/ii/Documents/Green-General-api/project-green-general.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ii/.nuget/NuGet/NuGet.Config"

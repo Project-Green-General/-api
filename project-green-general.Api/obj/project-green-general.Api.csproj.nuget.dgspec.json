@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ii/api/Green-General-api/project-green-general.Api/project-green-general.Api.csproj": {}
+    "/Users/ii/Documents/Green-General-api/project-green-general.Api/project-green-general.Api.csproj": {}
   },
   "projects": {
-    "/Users/ii/api/Green-General-api/project-green-general.Api/project-green-general.Api.csproj": {
+    "/Users/ii/Documents/Green-General-api/project-green-general.Api/project-green-general.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ii/api/Green-General-api/project-green-general.Api/project-green-general.Api.csproj",
+        "projectUniqueName": "/Users/ii/Documents/Green-General-api/project-green-general.Api/project-green-general.Api.csproj",
         "projectName": "project-green-general.Api",
-        "projectPath": "/Users/ii/api/Green-General-api/project-green-general.Api/project-green-general.Api.csproj",
+        "projectPath": "/Users/ii/Documents/Green-General-api/project-green-general.Api/project-green-general.Api.csproj",
         "packagesPath": "/Users/ii/.nuget/packages/",
-        "outputPath": "/Users/ii/api/Green-General-api/project-green-general.Api/obj/",
+        "outputPath": "/Users/ii/Documents/Green-General-api/project-green-general.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ii/.nuget/NuGet/NuGet.Config"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj": {
+                "projectPath": "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -62,6 +66,59 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj",
+        "projectName": "project-green-general.Domain",
+        "projectPath": "/Users/ii/Documents/Green-General-api/project-green-general.Domain/project-green-general.Domain.csproj",
+        "packagesPath": "/Users/ii/.nuget/packages/",
+        "outputPath": "/Users/ii/Documents/Green-General-api/project-green-general.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ii/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
