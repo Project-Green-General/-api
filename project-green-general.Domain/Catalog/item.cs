@@ -132,10 +132,34 @@ namespace project.green.general.Domain.Catalog
     return Ok(item);
  }
       
+[HttpPost]
+public IActionResult Post(Item item)
+{
+    Return Created(“/catalog/42”, item);
+}
 
-        
+[HttpPost(“{id:int}/ratings”)]
+public IActionResult PostRating(int id, [FromBody] Rating rating)
+{
+    var item = new Item(“Shirt”, “Ohio State shirt.”, “Nike”, 29.99m);
+    item.Id = id;
+    item.Addrating(rating);
 
-    
+    Return ok(item);
+}
+       
+[HttpPut(“{id:int}”)]
+public IActionResult Put(int id, Item item)
+{
+    Return NoContent();
+}
+
+[HttpDelete(“{id:int}”)]
+Public IActionResult Delete(int id, Item item)
+{
+    Return NoContent();
+}
+
     
     
 
